@@ -36,7 +36,7 @@ public class ATM  {
 	public void cashout(int amount) {
 		// check for cash in the ATM
 		if (amount > cash) {
-			System.out.println("Not enough cash left.");
+			System.out.println("Du bist pleite!");
 			return;
 		}
 		
