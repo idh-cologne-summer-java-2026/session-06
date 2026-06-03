@@ -23,7 +23,7 @@ public class ATM  {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		while (true) {
 			try {
-				System.out.print("Enter the amount to withdraw: ");
+				System.out.print("Wieviel Geld möchten Sie abheben?");
 				int amount = Integer.parseInt(br.readLine());
 				cashout(amount);
 			} catch (Exception e) {
