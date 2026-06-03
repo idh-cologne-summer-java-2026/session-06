@@ -10,7 +10,7 @@ public class ATM  {
 	int cash = 100;
 		
 	// Which banknotes do we have?
-	int[] value_of_bills = new int[] {500, 200, 100, 50, 20, 10, 5};
+	int[] value_of_bills = new int[] {500, 200, 100, 73, 50, 20, 10, 5};
 
 	
 	/**
